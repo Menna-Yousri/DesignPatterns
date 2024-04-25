@@ -85,3 +85,5 @@ diner_restaurant = DinerMenu(diner_menu)
 
 waitress = Waitress(pan_restaurant, diner_restaurant)
 waitress.print_menus()
+
+

@@ -1,12 +1,11 @@
+
+
 from datetime import datetime
-
-
 class MyCalendar:
     def get_time(self):
         cal = datetime.now()
         day_of_week = cal.weekday()  # Monday is 0 and Sunday is 6
         return day_of_week
-
 
 class Mediator:
     def __init__(self, my_calendar, alarm, coffee_machine, moving_robot, smart_window=None):
